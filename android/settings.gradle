@@ -1,3 +1,5 @@
 rootProject.name = 'datepicker'
+include ':rn-datepicker-nougat-spinner-fix'
+project(':rn-datepicker-nougat-spinner-fix').projectDir = new File(rootProject.projectDir, '../node_modules/rn-datepicker-nougat-spinner-fix/android')
 
 include ':app'
